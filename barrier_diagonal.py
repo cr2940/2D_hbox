@@ -152,6 +152,10 @@ def surface_height(current_data):
     b = bathymetry(current_data.x,current_data.y)
     return h+b
 
+def gauge_height(q,aux):
+    h = q[0]
+    return h
+
 def gauge_spots(current_data):
     gauge_points = [(0.125,0.875),(0.24,0.76),(0.375,0.625),(0.5,0.5),(0.625,0.375),(0.75,0.25),(0.875,0.125)]
     axis = plt.gca()
