@@ -8,7 +8,7 @@ The file `barrier_flat.py` runs an example of horizontal barrier just off grid e
 The file `barrier_diagonal.py` runs an example of diagonal barrier (45 degree to the grid) with a dam break producing a radial wave headed towards the barrier.
 In `barrier_diagonal.py` there are two options (one commented out) for bathymetric setting, one being flat and the other being a sloping beach. Note that around the barrier in the sloping beach example the bathymetry is flat. 
 
-The file `barrier_slanted.py` runs an example of slanted barrier as an example of arbitrarily angled barrier (~20 degree to the grid) with a dam break producing a planar wave headed towards the barrier. The bathymetry is flat.
+The file `barrier_slanted.py` runs an example of slanted barrier as an example of arbitrarily angled barrier (~20 degree to the grid) with a dam break producing a planar wave headed towards the barrier. The bathymetry is flat. To run `barrier_slanted.py` you need the data (in .txt) in the `data` directory, to be in the same directory as this setup file.
 
 The solver and object/class files required to run the examples are in "PyClaw_hbox2D" repo.
 
