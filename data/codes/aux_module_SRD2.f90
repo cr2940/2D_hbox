@@ -33,7 +33,9 @@ contains
         whose(N) = N-1
         N_hbox(N-1) = N_hbox(N-1) + 1
       end if
-    end if
+    else 
+      whose(N) = N
+     end if
 
   end subroutine
 
