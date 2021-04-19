@@ -1,4 +1,8 @@
-# 2D_hbox
+# 2D hbox codes for barrier simulations
+
+   ![image](https://user-images.githubusercontent.com/36740525/115186258-5872b200-a11c-11eb-86ab-cba8a3acbcd8.png)
+(Picture of 20 degree barrier blocking a wave)
+
 Solving 2D SWE in PyClaw with zero width barriers: flat, diagonal, slanted (~20 degree) barriers
 
 The setup files are named `barrier_flat.py` , `barrier_diagonal.py` , and `barrier_slanted.py`.
