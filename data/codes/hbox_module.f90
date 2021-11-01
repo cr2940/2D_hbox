@@ -1,5 +1,4 @@
 module hbox_layer
-  use mpmodule
   use aux_module_hbox
   implicit none
   ! type(mp_real) :: pi
