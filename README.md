@@ -14,6 +14,6 @@ In `barrier_diagonal.py` there are two options (one commented out) for bathymetr
 
 The file `barrier_slanted.py` runs an example of slanted barrier as an example of arbitrarily angled barrier (~20 degree to the grid) with a dam break producing a planar wave headed towards the barrier. The bathymetry is flat. To run `barrier_slanted.py` you need the data (in .txt) in the `data` directory, to be in the same directory as this setup file.
 
-The solver and object/class files required to run the examples are in "PyClaw_hbox2D" repo.
+The solver and object/class files required to run the examples are in "PyClaw_hbox2D" [repo](https://github.com/cr2940/PyClaw_hbox2D).
 
 
